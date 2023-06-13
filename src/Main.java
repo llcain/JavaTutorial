@@ -1,4 +1,8 @@
 public class Main {
+    // Java Method with parameters and arguments
+    static void myMethod(String fname) {
+        System.out.println( fname + " Refsnes");
+    }
     public static void main(String[] args) {
 
         Student s = new Student();
@@ -37,6 +41,10 @@ public class Main {
         for (int i = 0; i < cars.length - 1; i++) {
             System.out.println(cars[i]);
         }
+
+        myMethod("Liam");
+        myMethod("Jenny");
+        myMethod("Anja");
 
     }
 }
