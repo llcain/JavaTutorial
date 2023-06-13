@@ -1,13 +1,16 @@
 public class Main {
+
+    int x = 45;
+    String color = "Blue";
     // Java Method with parameters and arguments
     static void myMethod(String fname) {
         System.out.println( fname + " Refsnes");
     }
 
-    public static reverseString() {
-        
-    }
+
     public static void main(String[] args) {
+
+
 
         Student s = new Student();
         s.setName("Sarah Jay");
@@ -49,6 +52,9 @@ public class Main {
         myMethod("Liam");
         myMethod("Jenny");
         myMethod("Anja");
+
+        Main myObj = new Main();
+        System.out.println(myObj.x);
 
     }
 }
