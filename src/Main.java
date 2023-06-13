@@ -3,6 +3,10 @@ public class Main {
     static void myMethod(String fname) {
         System.out.println( fname + " Refsnes");
     }
+
+    public static reverseString() {
+        
+    }
     public static void main(String[] args) {
 
         Student s = new Student();
