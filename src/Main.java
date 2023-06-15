@@ -56,5 +56,11 @@ public class Main {
         Main myObj = new Main();
         System.out.println(myObj.x);
 
+
+
+        s.myStudentMethod();
+
+
+
     }
 }
