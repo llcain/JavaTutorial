@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
     int x = 45;
@@ -60,7 +62,23 @@ public class Main {
 
         s.myStudentMethod();
 
+        // iterating through an array java
+        int[] num = {1, 7, 3, 4};
+
+        for (int i = 0; i < num.length; i++) {
+            System.out.println(num[i]);
+        }
 
 
     }
+//    static void traverseString(String s) {
+//        s= "hello";
+//
+//        for ( int i = 0; i < s.length(); i++) {
+//            System.out.println(s.charAt(i) + " ");
+//        }
+//
+//    }
+
+
 }

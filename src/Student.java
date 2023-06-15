@@ -10,7 +10,7 @@ public class Student {
         name = newName;
     }
 
-    public void myStudentMethod() {
+    public static void myStudentMethod() {
         System.out.println("Hello from the Student class");
     }
 
