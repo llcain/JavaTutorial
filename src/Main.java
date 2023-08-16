@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
@@ -91,6 +92,20 @@ public class Main {
         for (char i : vowels) {
             System.out.println(i);
         }
+
+        /* ArrayList Declaration */
+
+        ArrayList<String> employeeNames = new ArrayList<String>();
+
+
+        /* Adding Strings to the String ArrayList Object*/
+
+        employeeNames.add("Melinda");
+        employeeNames.add("Lisa");
+        employeeNames.add("Nicole");
+        employeeNames.add("Bob");
+
+        System.out.println(employeeNames);
 
 
     }
