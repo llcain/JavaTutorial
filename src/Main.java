@@ -70,7 +70,7 @@ public class Main {
                 int target = 6;
 
                 if (num[i] + num[j] == target) {
-                    
+
                 }
 
             }
