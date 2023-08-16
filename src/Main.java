@@ -66,7 +66,16 @@ public class Main {
         int[] num = {1, 7, 3, 4};
 
         for (int i = 0; i < num.length; i++) {
-            System.out.println(num[i]);
+            for (int j = i + 1; j < num.length; j++) {
+                int target = 6;
+
+                if (num[i] + num[j] == target) {
+                    
+                }
+
+            }
+
+
         }
 
         char[] vowels = {'a', 'e', 'i', 'o', 'u'};
@@ -74,6 +83,14 @@ public class Main {
        for(int i = 0; i < vowels.length; i++) {
            System.out.println(vowels[i]);
        }
+
+       // iterating through an array using for-each
+
+        // syntax
+
+        for (char i : vowels) {
+            System.out.println(i);
+        }
 
 
     }
