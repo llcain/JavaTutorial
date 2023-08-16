@@ -69,6 +69,12 @@ public class Main {
             System.out.println(num[i]);
         }
 
+        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+
+       for(int i = 0; i < vowels.length; i++) {
+           System.out.println(vowels[i]);
+       }
+
 
     }
 //    static void traverseString(String s) {
